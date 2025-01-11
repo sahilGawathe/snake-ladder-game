@@ -32,6 +32,10 @@ public class SnakeLadderGame {
 				}
 				System.out.println("Snake : Move Back to Positon "+ position);
 			}
+			if(position > winningPosition ) {
+				position -=dieRoll;
+				System.out.println("Exceed: Stay at Position "+position);
+			}
 			
 		}
 		System.out.println("Congratulations! You reached position 100 in " + diceRoll + " rolls.");
