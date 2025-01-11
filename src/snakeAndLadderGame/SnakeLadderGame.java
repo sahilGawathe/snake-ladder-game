@@ -38,7 +38,7 @@ public class SnakeLadderGame {
 			}
 			
 		}
-		System.out.println("Congratulations! You reached position 100 in " + diceRoll + " rolls.");
+		System.out.println("Congratulations! You reached Position "+position+" in " + diceRoll + " rolls.");
 	}
 	
 	private static int rollDice() {
